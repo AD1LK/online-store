@@ -1,0 +1,168 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  color: white;
+  background-color: white;
+  font-family: Impact, Charcoal, sans-serif;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+#carouselExampleControls
+{
+  max-height: 300px;
+  max-width: 1086px;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.header-main-menu {
+  display: flex;
+  align-items: center;
+}
+
+.header-side-menu {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  height: 100px;
+}
+
+ul {
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.menu-item {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+}
+
+.menu-item:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.menu-icon {
+  height: 2em;
+}
+
+/* Footer */
+footer {
+  display: flex;
+}
+
+.footer-columns-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-column {
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+.footer-link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  padding: 5px;
+}
+
+.footer-column-links {
+  margin: 10px 0px;
+  padding-left: 0;
+}
+
+.social-media-container {
+  margin: 20px;
+}
+
+.social-media-container img {
+  height: 50px;
+  margin: 0 10px;
+}
+
+.product-banner {
+  height: 600px;
+  background-image: url(../assets/featured.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+}
+
+.product-title {
+  text-decoration: underline;
+  font-size: 42px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.product-name {
+  font-size: 100px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgb(46, 46, 46);
+  letter-spacing: 1px;
+  margin-top: 100px;
+}
+
+.product-cards {
+  margin-top: 100px;
+  display: flex;
+  align-items: space-around;
+}
+
+.sign-up-form {
+  background-color: lightgrey;
+  text-align: center;
+}
+
+input {
+  width: 50%;
+  background: none;
+  border: 1px solid rgb(3, 3, 3);
+  border-radius: 3px;
+  padding: 6px 15px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}
+
+input[type="button"] {
+  background: #000000;
+  border: 0;
+  cursor: pointer;
+  color: #ffffff;
+}
+input[type="button"]:hover {
+  background: #1a1a1a;
+  transition: 0.6s;
+}
+
+:placeholder {
+  color: rgb(0, 0, 0);
+}
