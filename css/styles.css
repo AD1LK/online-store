@@ -12,11 +12,14 @@ html {
   margin: 0;
   padding: 0;
 }
+
+
 #carouselExampleControls
 {
   max-height: 300px;
-  max-width: 1086px;
+  max-width: 100%;
 }
+
 header {
   display: flex;
   justify-content: space-around;
@@ -94,6 +97,10 @@ footer {
 .social-media-container img {
   height: 50px;
   margin: 0 10px;
+}
+
+.row {
+  margin-top: 250px;
 }
 
 .product-banner {
