@@ -173,3 +173,10 @@ input[type="button"]:hover {
 :placeholder {
   color: rgb(0, 0, 0);
 }
+
+/*media queries*/
+@media (max-width: 1000px) {
+  header {
+    width: 665px;
+  }
+}
